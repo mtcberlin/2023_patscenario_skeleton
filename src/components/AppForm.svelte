@@ -66,7 +66,8 @@
 
 	<!-- add multiselect from tailwind ui -->
 	<label for="uip_multiselect_country_filing">First filing in</label>
-	<select class="p-2"
+	<select
+	class="border-primary-500 focus:bg-white"
 		bind:value={uip_multiselect_country_filing}
 		name="uip_multiselect_country_filing"
 		multiple
@@ -86,7 +87,7 @@
 	<select
 		bind:value={uip_multiselect_country_filing_Lang}
 		name="uip_multiselect_country_filing_Lang"
-		class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+		class="border-primary-500 focus:bg-white"
 		placeholder={form?.uip_multiselect_country_filing_Lang ?? uip_multiselect_country_filing_Lang_value}
 	>
 		<option value="DE">German</option>
@@ -101,6 +102,7 @@
 
 	<label for="uip_translation_fee">Translation Fees in € / Word</label>
 	<input
+	class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_translation_fee"
 		label="Translation Fees in € / Word"
@@ -110,20 +112,22 @@
 
 	<h2 style="margin-bottom:20px; margin-top:20px">Average Document</h2>
 	<label for="uip_pages">Pages</label>
-	<input type="number" name="uip_pages" label="Pages" value={form?.uip_pages ?? uip_pages} />
+	<input class="border-primary-500 focus:bg-white" type="number" name="uip_pages" label="Pages" value={form?.uip_pages ?? uip_pages} />
 	<label for="uip_drawings">Drawings</label>
 	<input
+	class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_drawings"
 		label="Drawings"
 		value={form?.uip_drawings ?? uip_drawings}
 	/>
 	<label for="uip_claims">Claims</label>
-	<input type="number" name="uip_claims" label="Claims" value={form?.uip_claims ?? uip_claims} />
+	<input class="border-primary-500 focus:bg-white" type="number" name="uip_claims" label="Claims" value={form?.uip_claims ?? uip_claims} />
 	<label for="uip_words">Words</label>
-	<input type="number" name="uip_words" label="Words" value={form?.uip_words ?? uip_words} />
+	<input class="border-primary-500 focus:bg-white" type="number" name="uip_words" label="Words" value={form?.uip_words ?? uip_words} />
 	<label for="uip_words_claims">Words in Claims only</label>
 	<input
+	class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_words_claims"
 		label="Words in Claims only"
@@ -135,6 +139,7 @@
 	</h2>
 	<label for="uip_basic_fee">Basic Fee (one time) €</label>
 	<input
+	class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_basic_fee"
 		label="Basic Fee (one time) €"
@@ -143,6 +148,7 @@
 	<!-- svelte-ignore a11y-label-has-associated-control -->
 	<label>Quick examination (1-2 assesments/per year, 2 years) €</label>
 	<input
+	class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_quick_examination"
 		label="Quick examination (1-2 assesments/per year, 2 years) €"
@@ -150,6 +156,7 @@
 	/>
 	<label for="uip_normal_examination">Normal examination (2 assesments/per year, 3 years) €</label>
 	<input
+	class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_normal_examination"
 		label="Normal examination (2 assesments/per year, 3 years) €"
@@ -157,6 +164,7 @@
 	/>
 	<label for="uip_extended_examination">Extended examination (3-5 assesments/per year, 6 years) €</label>
 	<input
+	class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_extended_examination"
 		label="Extended examination (3-5 assesments/per year, 6 years) €"
@@ -165,7 +173,8 @@
 
 	<h2 style="margin-bottom:20px; margin-top:20px">Complexity</h2>
 	<label for="uip_complexity">Complexity</label>
-	<select class="p-2"
+	<select
+	class="border-primary-500 focus:bg-white"
 		name="uip_complexity"
 		helperText="tbd: Estimated date for granting the patent"
 		labelText="Complexity"
@@ -179,7 +188,7 @@
 	<select
 		bind:value={uip_multiselect_country_filing_subsequent}
 		name="uip_multiselect_country_filing_subsequent"
-		class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+		class="border-primary-500 focus:bg-white"
 		multiple
 	>
 		<!-- add foreach options from const transformedvalues -->

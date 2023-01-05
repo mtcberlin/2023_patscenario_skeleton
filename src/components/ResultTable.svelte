@@ -3,6 +3,9 @@
 
 	//needs to stay
 	$: table = Object.values($storeTableData);
+
+
+
 </script>
 
 <h2 style="margin-bottom:30px">Results</h2>
