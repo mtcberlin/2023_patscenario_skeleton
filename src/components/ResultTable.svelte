@@ -7,7 +7,7 @@
 
 <h2 style="margin-bottom:30px">Results</h2>
 <div class="table-container">
-	<table class="table table-hover">
+	<table class="table table-cell-fit	">
 		<thead>
 			<tr>
 				<th>Country</th>
@@ -94,11 +94,11 @@
 				</tr>
 				<tr>
 					<td />
-					<td>Sum</td>
+					<td class="font-bold">Sum</td>
 					<td />
 					<td />
 					{#each Object.keys(values) as year}
-						<th>{values[year].sum_fee}</th>
+						<td class="font-bold">{values[year].sum_fee}</td>
 					{/each}
 				</tr>
 			{/each}

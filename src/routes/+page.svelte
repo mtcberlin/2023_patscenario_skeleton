@@ -63,7 +63,7 @@
 	{#if form?.success}
 		<AppResult />
 		<br />
-		<button on:click={() => toggleShowEdit()}>Edit Results</button>
+		<button class="btn btn-filled-primary btn-base" on:click={() => toggleShowEdit()}>Edit Results</button>
 		
 	{/if}
 </div>

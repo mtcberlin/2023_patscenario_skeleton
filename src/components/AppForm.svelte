@@ -34,7 +34,7 @@
 	$: editForm = true;
 	// Input fields Config
 	$: uip_multiselect_country_filing = 'DE,CH';
-	$: uip_multiselect_country_filing_Lang = '';
+	$: uip_multiselect_country_filing_Lang =  uip_multiselect_country_filing_Lang ?? form?.uip_multiselect_country_filing_Lang;
 	$: uip_multiselect_country_filing_subsequent = '';
 	$: selectedIds = '';
 	$: uip_translation_fee = 0.15;
@@ -82,12 +82,12 @@
 		name="uip_multiselect_country_filing_value"
 		value={uip_multiselect_country_filing}
 	/>
-	<label for="uip_multiselect_country_filing_Lang">Languages in which the first filing is available</label>
+	<label for="uip_multiselect_country_filing_Lang">Language in which the first filing is available</label>
 	<select
 		bind:value={uip_multiselect_country_filing_Lang}
 		name="uip_multiselect_country_filing_Lang"
 		class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-		
+		placeholder={form?.uip_multiselect_country_filing_Lang ?? uip_multiselect_country_filing_Lang_value}
 	>
 		<option value="DE">German</option>
 		<option value="EN">English</option>
@@ -192,7 +192,7 @@
 		name="uip_multiselect_country_filing_subsequent_value"
 		value={uip_multiselect_country_filing_subsequent}
 	/>
-
+	<br><br>
 	<button class="btn btn-filled-primary btn-base">Submit</button>
 
 	<br /><br />
