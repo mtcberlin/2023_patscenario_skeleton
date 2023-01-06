@@ -20,40 +20,51 @@ export const storeChartData = derived([storeTableData], ([storeTableData]) => {
 		const countryChart = yearsArray.flatMap(([year, feeObject]) => {
 			return [
 				{
-					group: feeObject.country_code + ' - Maintenance',
-					key: feeObject.year,
-					value: feeObject.maintenance_fee
-				},
-				{
-					group: feeObject.country_code + ' - Filing Fee',
-					key: feeObject.year,
-					value: feeObject.filing_fee
-				},
-				{
-					group: feeObject.country_code + ' - Attorney Fee',
-					key: feeObject.year,
-					value: feeObject.attorney_fee
-				},
-				{
-					group: feeObject.country_code + ' - Grant Fee',
-					key: feeObject.year,
-					value: feeObject.grant_fee
-				},
-				{
-					group: feeObject.country_code + ' - Publication Fee',
-					key: feeObject.year,
-					value: feeObject.publication_fee
-				},
-				{
-					group: feeObject.country_code + ' - Examination Fee',
-					key: feeObject.year,
-					value: feeObject.examination_fee
-				},
-				{
-					group: feeObject.country_code + ' - Translation Fee',
-					key: feeObject.year,
-					value: feeObject.translation_fee
+					'Year': feeObject.year,
+					'Filing Fee': feeObject.filing_fee,
+					'Attorney Fee': feeObject.attorney_fee,
+					'Grant Fee': feeObject.grant_fee,
+					'Publication Fee': feeObject.publication_fee,
+					'Examination Fee': feeObject.examination_fee,
+					'Maintenance Fee': feeObject.maintenance_fee,
+					'Translation Fee': feeObject.translation_fee,
+					'total': feeObject.sum_fee
 				}
+				// {
+				// 	category_A: feeObject.country_code + ' - Maintenance',
+				// 	group: feeObject.year,
+				// 	total: feeObject.maintenance_fee
+				// },
+				// {
+				// 	category_A: feeObject.country_code + ' - Filing Fee',
+				// 	group: feeObject.year,
+				// 	total: feeObject.filing_fee
+				// },
+				// {
+				// 	category_A: feeObject.country_code + ' - Attorney Fee',
+				// 	group: feeObject.year,
+				// 	total: feeObject.attorney_fee
+				// },
+				// {
+				// 	category_A: feeObject.country_code + ' - Grant Fee',
+				// 	group: feeObject.year,
+				// 	total: feeObject.grant_fee
+				// },
+				// {
+				// 	category_A: feeObject.country_code + ' - Publication Fee',
+				// 	group: feeObject.year,
+				// 	total: feeObject.publication_fee
+				// },
+				// {
+				// 	category_A: feeObject.country_code + ' - Examination Fee',
+				// 	group: feeObject.year,
+				// 	total: feeObject.examination_fee
+				// },
+				// {
+				// 	category_A: feeObject.country_code + ' - Translation Fee',
+				// 	group: feeObject.year,
+				// 	total: feeObject.translation_fee
+				// }
 			];
 		});
 

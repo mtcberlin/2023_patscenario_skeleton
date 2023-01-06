@@ -1,0 +1,1402 @@
+[
+    {
+        "group": "DE - Maintenance",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 1,
+        "value": 370
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 1,
+        "value": 1550
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 2,
+        "value": 750
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 2,
+        "value": 1000
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 2,
+        "value": 2690
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 3,
+        "value": 250
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "DE - Maintenance",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "DE - Filing Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "DE - Attorney Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "DE - Grant Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "DE - Publication Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "DE - Examination Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "DE - Translation Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 1,
+        "value": 203
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 1,
+        "value": 1550
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 1,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 2,
+        "value": 750
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 2,
+        "value": 507
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 2,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 3,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 4,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 5,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 6,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 7,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 8,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 9,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 10,
+        "value": 264
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 10,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 11,
+        "value": 304
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 11,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 12,
+        "value": 345
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 12,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 13,
+        "value": 406
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 13,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 14,
+        "value": 467
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 14,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 15,
+        "value": 528
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 15,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 16,
+        "value": 609
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 16,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 17,
+        "value": 690
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 17,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 18,
+        "value": 771
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 18,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 19,
+        "value": 873
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 19,
+        "value": 0
+    },
+    {
+        "group": "CH - Maintenance",
+        "key": 20,
+        "value": 974
+    },
+    {
+        "group": "CH - Filing Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "CH - Attorney Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "CH - Grant Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "CH - Publication Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "CH - Examination Fee",
+        "key": 20,
+        "value": 0
+    },
+    {
+        "group": "CH - Translation Fee",
+        "key": 20,
+        "value": 0
+    }
+]
