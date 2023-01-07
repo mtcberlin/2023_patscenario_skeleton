@@ -3,15 +3,15 @@
     // import data from "./radialStacked-data.js"; // or pass data to component as prop
     
     import {
-		storeChartData
+		storeChartData, storeChartTotal
 	} from '../routes/stores.js';
     console.log("store?", $storeChartData)
-    const data = $storeChartData;
+    const data = $storeChartTotal;
 console.log("data?", data)
     const width = 1000; // width of inner radius inverted, in pixels
     const innerRadius = 200; // radius of inner circle, in pixels
     const colorRange = ['#98abc5','#8a89a6','#7b6888','#6b486b','#a05d56','#d0743c','#ff8c00']; // fill colors for each bar stack - MUST match number of datasets
-    const chartScale = 0.48; // scale factor from the center
+    const chartScale = 0.4; // scale factor from the center
     const sorted = false; // whether to sort the data by descending total
     const varFontSize = 16; // font size of chart text, in pixels
     const tickColor = '#000'; // color of inner radius ticks
@@ -53,6 +53,7 @@ console.log("data?", data)
     viewBox="{-width / 2} {-height / 2} {width} {height}"
     font-size="{varFontSize}px"
   >
+  
     <g class="chart-render">
       {#each stack().keys(keys.slice(1))(reactiveData) as cData}
         <g fill={zScale(cData.key)}>
@@ -62,6 +63,7 @@ console.log("data?", data)
         </g>
       {/each}
     </g>
+    
     <g class="x-axis" text-anchor="middle">
       {#each reactiveData as d}
         <g
@@ -107,7 +109,7 @@ console.log("data?", data)
     </g>
     <g class="legend">
       {#each keys.slice(1).reverse() as lData, i}
-        <g transform="translate(-40,{(i - (keys.length - 1) / 2) * 20})">
+        <g transform="translate(-55,{(i - (keys.length - 1) / 2) * 20})">
           <rect width={rectLength} height="18" fill={zScale(lData)} />
           <text x="24" y="9" dy="0.35em">{lData}</text>
         </g>

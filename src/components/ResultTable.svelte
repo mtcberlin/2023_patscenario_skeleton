@@ -8,7 +8,7 @@
 
 </script>
 
-<h2 style="margin-bottom:30px">Results</h2>
+
 <div class="table-container">
 	<table class="table table-cell-fit	">
 		<thead>

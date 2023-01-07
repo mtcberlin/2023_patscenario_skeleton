@@ -73,3 +73,44 @@ export const storeChartData = derived([storeTableData], ([storeTableData]) => {
 
 	return chart;
 });
+
+export const storeChartTotal = derived([storeTableData], ([storeTableData]) => {
+	const chart = [];
+
+	const countriesArray = Object.entries(storeTableData);
+
+	countriesArray.forEach(([countryCode, countryObject]) => {
+		const yearsArray = Object.entries(countryObject);
+
+		const countryChart = yearsArray.flatMap(([year, feeObject]) => {
+			let totalFilingFee = 0;
+			let totalAttorneyFee = 0;
+			let totalGrantFee = 0;
+			let totalPublicationFee = 0;
+			let totalExaminationFee = 0;
+			let totalMaintenanceFee = 0;
+			let totalTranslationFee = 0;
+			let totalSumFee = 0;
+
+			for (const countryCode in storeTableData) {
+				totalFilingFee += storeTableData[countryCode][year].filing_fee;
+				totalAttorneyFee += storeTableData[countryCode][year].attorney_fee;
+				totalGrantFee += storeTableData[countryCode][year].grant_fee;
+				totalPublicationFee += storeTableData[countryCode][year].publication_fee;
+				totalExaminationFee += storeTableData[countryCode][year].examination_fee;
+				totalMaintenanceFee += storeTableData[countryCode][year].maintenance_fee;
+				totalTranslationFee += storeTableData[countryCode][year].translation_fee;
+				totalSumFee += storeTableData[countryCode][year].sum_fee;
+			}
+
+			return [				{					'Year': feeObject.year,					'Filing Fee': totalFilingFee,					'Attorney Fee': totalAttorneyFee,					'Grant Fee': totalGrantFee,					'Publication Fee': totalPublicationFee,					'Examination Fee': totalExaminationFee,					'Maintenance Fee': totalMaintenanceFee,					'Translation Fee': totalTranslationFee,					'total': totalSumFee				}							];
+		});
+
+		chart.push(...countryChart);
+	});
+
+	return chart;
+});
+
+  
+  

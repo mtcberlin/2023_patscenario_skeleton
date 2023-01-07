@@ -10,7 +10,16 @@
 	} from '../routes/stores.js';
 	import RadialStackedBar from './RadialStackedBar.svelte';
 	import ResultTable from './ResultTable.svelte';
+	import { onMount } from 'svelte';
 
+	//Scoll to top of page on load
+
+	onMount(() => {
+		const pageContentElement = document.getElementById('page-content');
+		pageContentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+	});
+
+	// Handle Show Hide Edit Form
 	$: $storeUserCountries, updateTableData();
 	$storeShowEdit = false;
 
@@ -216,8 +225,9 @@
 
 <!-- {JSON.stringify($storeTableData)} -->
 <div use:scrollTo>
-	<ResultTable />
+	<br /><br />
+	<h2 style="margin-bottom:30px">Results</h2>
+	<RadialStackedBar />
 </div>
 <br /><br />
-<RadialStackedBar />
-
+<ResultTable />
