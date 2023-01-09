@@ -4,7 +4,6 @@
 	let storeMultiple: Writable<any[]> = writable(['A', 'B']);
 	import { onMount } from 'svelte';
 	import { enhance } from '$app/forms';
-	// import {  Table, TableHead, TableBody, TableRow, TableCell, TableHeader, TableFooter, TableCaption } from '@skeletonlabs/skeleton';
 	import MultiSelect from 'svelte-multiselect';
 	export let uip_translation_fee: number;
 	export let uip_pages: number;
@@ -33,8 +32,8 @@
 
 	let selected: string[];
 	let value: string[] = [];
-	$: console.log('Data', $supaData);
-	$: console.log('Form', $storeUserCho);
+	//$: console.log('Data', $supaData);
+	//$: console.log('Form', $storeUserCho);
 	$: showResults = false;
 	$: editForm = true;
 	// Input fields Config
@@ -87,8 +86,8 @@
 			<option value={option.value}>{option.label}</option>
 		{/each}
 	</select>
-	<pre>selected = {JSON.stringify(selected)}</pre> -->
-	<label for="uip_multiselect_country_filing">First filing in</label>
+	<pre>selected = {JSON.stringify(selected)}</pre>
+	<label for="uip_multiselect_country_filing">First filing in</label> -->
 	<MultiSelect 
 		--sms-options-bg="white" 
 		--sms-min-height="32pt"
@@ -133,7 +132,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_translation_fee"
-		label="Translation Fees in € / Word"
 		value={form?.uip_translation_fee ?? uip_translation_fee}
 		step={0.01}
 	/>
@@ -152,7 +150,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_drawings"
-		label="Drawings"
 		value={form?.uip_drawings ?? uip_drawings}
 	/>
 	<label for="uip_claims">Claims</label>
@@ -160,7 +157,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_claims"
-		label="Claims"
 		value={form?.uip_claims ?? uip_claims}
 	/>
 	<label for="uip_words">Words</label>
@@ -168,7 +164,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_words"
-		label="Words"
 		value={form?.uip_words ?? uip_words}
 	/>
 	<label for="uip_words_claims">Words in Claims only</label>
@@ -176,7 +171,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_words_claims"
-		label="Words in Claims only"
 		value={form?.uip_words_claims ?? uip_words_claims}
 	/>
 
@@ -188,7 +182,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_basic_fee"
-		label="Basic Fee (one time) €"
 		value={form?.uip_basic_fee ?? uip_basic_fee}
 	/>
 	<!-- svelte-ignore a11y-label-has-associated-control -->
@@ -197,7 +190,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_quick_examination"
-		label="Quick examination (1-2 assesments/per year, 2 years) €"
 		value={form?.uip_quick_examination ?? uip_quick_examination}
 	/>
 	<label for="uip_normal_examination">Normal examination (2 assesments/per year, 3 years) €</label>
@@ -205,7 +197,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_normal_examination"
-		label="Normal examination (2 assesments/per year, 3 years) €"
 		value={form?.uip_normal_examination ?? uip_normal_examination}
 	/>
 	<label for="uip_extended_examination"
@@ -215,7 +206,6 @@
 		class="border-primary-500 focus:bg-white"
 		type="number"
 		name="uip_extended_examination"
-		label="Extended examination (3-5 assesments/per year, 6 years) €"
 		value={form?.uip_extended_examination ?? uip_extended_examination}
 	/>
 
@@ -224,8 +214,6 @@
 	<select
 		class="border-primary-500 focus:bg-white"
 		name="uip_complexity"
-		helperText="tbd: Estimated date for granting the patent"
-		labelText="Complexity"
 		selected={form?.uip_complexity ?? uip_complexity}
 	>
 		<option value="quick">quick</option>

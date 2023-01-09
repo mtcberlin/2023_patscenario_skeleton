@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { fade, fly } from 'svelte/transition';
-
 	import {
 		storeTableData,
 		storeUserCho,
@@ -25,34 +24,35 @@
 
 	// Get Fees based on years (i)
 
-	function getFilingFee(i, filingFee) {
+	function getFilingFee(i: number, filingFee: number): number {
 		if (i === 1) {
 			return filingFee;
 		} else {
 			return 0;
 		}
 	}
-	function getExaminationFee(i, examinationFee) {
+	function getExaminationFee(i: number, examinationFee: number): number {
 		if (i === 2) {
 			return examinationFee;
 		} else {
 			return 0;
 		}
 	}
-	function getPublicationFee(i, publicationFee) {
+	function getPublicationFee(i: number, publicationFee: number): number {
 		if (i === 2) {
 			return publicationFee;
 		} else {
 			return 0;
 		}
 	}
-	function getGrantFee(i, grantFee) {
+	function getGrantFee(i: number, grantFee: number): number {
 		if (i === 3) {
 			return grantFee;
 		} else {
 			return 0;
 		}
 	}
+
 	// Get Attorney - Fees
 
 	function getAttorneyFees(
@@ -82,7 +82,7 @@
 
 	// Translation needed?
 
-	function compareTranslations(translationFrom, translationTo) {
+	function compareTranslations(translationFrom: string, translationTo: string): 'no' | 'yes' {
 		if (
 			translationFrom === null ||
 			translationFrom === undefined ||
@@ -111,8 +111,8 @@
 
 	// Translation costs
 
-	console.log($storeUserCho.uip_multiselect_country_filing);
-	function translationgetcost(i, translationFrom, translationTo) {
+	//console.log($storeUserCho.uip_multiselect_country_filing);
+	function translationgetcost(i: number, translationFrom: string, translationTo: string) {
 		if (
 			translationFrom === null ||
 			translationFrom === undefined ||
@@ -137,8 +137,17 @@
 	}
 	// build Array for Table & Charts
 
+	/**
+	 * updateTableData is a function that returns an object with properties for each country_code.
+	 * Each of these properties has year properties from 1 to 20, and each of these year properties
+	 * has various fee properties and data about the country.
+	 * The values of these properties are often determined by calling other functions.
+	 */
 	const updateTableData = () => {
+		// Retrieve an array of values from the $storeUserCountries object
 		const result = Object.values($storeUserCountries)
+
+			// Sort the array in ascending order based on the country_name property of each element
 			.sort((a, b) => {
 				if (a.country_name < b.country_name) {
 					return -1;
@@ -148,10 +157,15 @@
 					return 0;
 				}
 			})
+
+			// Reduce the sorted array into an object that has properties for each country_code
 			.reduce((acc, item) => {
+				// Set the value of the property for the current country_code to be an empty object
 				acc[item.country_code] = {};
 
+				// Iterate through the years from 1 to 20
 				for (let i = 1; i <= 20; i++) {
+					// Set the property for the current year to an object with various properties and data
 					const property = `year_${i}`;
 					acc[item.country_code][property] = {
 						year: i,
@@ -202,7 +216,12 @@
 							) +
 							getGrantFee(i, item.grant_fee) +
 							getPublicationFee(i, item.publication_fee) +
-							(item[`maintenance_year_${i}`] || 0)
+							(item[`maintenance_year_${i}`] || 0) +
+							translationgetcost(
+								i,
+								item.uip_multiselect_country_filing_Lang,
+								item.language_requirements_national
+							)
 					};
 				}
 

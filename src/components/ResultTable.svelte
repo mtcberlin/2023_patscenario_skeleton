@@ -9,37 +9,37 @@
 </script>
 
 
-<div class="table-container">
-	<table class="table table-cell-fit	">
+<div class="table-wrp table-container">
+	<table class="relative table table-cell-fit	">
 		<thead>
 			<tr>
-				<th>Country</th>
-				<th>Fee Type</th>
-				<th>Language</th>
-				<th>Complexity</th>
-				<th>Year 1</th>
-				<th>Year 2</th>
-				<th>Year 3</th>
-				<th>Year 4</th>
-				<th>Year 5</th>
-				<th>Year 6</th>
-				<th>Year 7</th>
-				<th>Year 8</th>
-				<th>Year 9</th>
-				<th>Year 10</th>
-				<th>Year 11</th>
-				<th>Year 12</th>
-				<th>Year 13</th>
-				<th>Year 14</th>
-				<th>Year 15</th>
-				<th>Year 16</th>
-				<th>Year 17</th>
-				<th>Year 18</th>
-				<th>Year 19</th>
-				<th>Year 20</th>
+				<th class="sticky">Country</th>
+				<th class="sticky">Fee Type</th>
+				<th class="sticky">Language</th>
+				<th class="sticky">Complexity</th>
+				<th class="sticky">Year 1</th>
+				<th class="sticky">Year 2</th>
+				<th class="sticky">Year 3</th>
+				<th class="sticky">Year 4</th>
+				<th class="sticky">Year 5</th>
+				<th class="sticky">Year 6</th>
+				<th class="sticky">Year 7</th>
+				<th class="sticky">Year 8</th>
+				<th class="sticky">Year 9</th>
+				<th class="sticky">Year 10</th>
+				<th class="sticky">Year 11</th>
+				<th class="sticky">Year 12</th>
+				<th class="sticky">Year 13</th>
+				<th class="sticky">Year 14</th>
+				<th class="sticky">Year 15</th>
+				<th class="sticky">Year 16</th>
+				<th class="sticky">Year 17</th>
+				<th class="sticky">Year 18</th>
+				<th class="sticky">Year 19</th>
+				<th class="sticky">Year 20</th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody class="divide-y">
 			{#each table as values, i}
 				<tr>
 					<td>{values['year_1']['country_name']}</td>
@@ -93,6 +93,15 @@
 					<td />
 					{#each Object.keys(values) as year}
 						<td>{values[year].attorney_fee}</td>
+					{/each}
+				</tr>
+				<tr>
+					<td />
+					<td>Translation Fee</td>
+					<td />
+					<td />
+					{#each Object.keys(values) as year}
+						<td>{values[year].translation_fee}</td>
 					{/each}
 				</tr>
 				<tr>

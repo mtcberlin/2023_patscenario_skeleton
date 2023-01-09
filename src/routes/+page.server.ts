@@ -47,6 +47,7 @@ export const actions = {
 		const uip_multiselect_country_filing_Lang_value = data.get('uip_multiselect_country_filing_Lang_value');
 		const uip_complexity = data.get('uip_complexity');
 
+		// build an object with the user's choices
 		const userChosen = {
 			uip_multiselect_country_filing,
 			uip_multiselect_country_filing_subsequent,
@@ -65,7 +66,7 @@ export const actions = {
 			uip_complexity
 		}
 
-
+		//return the object
 		return {
 			success: true,
 			userChosen,
