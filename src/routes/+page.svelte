@@ -38,7 +38,7 @@
 
 	// Split the uip_multiselect_country_filing property into an array of country codes
 	$: dataArray = Object.values(data);
-	//$: console.log("storeusercho",$storeUserCho)
+	//$: console.log("storeusercho",$storeUserCho))
 	// Split the uip_multiselect_country_filing property into an array of country codes
 	$: filingCountries = $storeUserCho?.uip_multiselect_country_filing?.split(',');
 
